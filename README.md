@@ -1,1 +1,1 @@
-# VeebirakendusЯ ишучила базовый процесс создания сайтов
+# Veebirakendus
