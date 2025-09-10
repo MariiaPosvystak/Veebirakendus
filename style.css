@@ -1,0 +1,95 @@
+header {
+    background-color: Tan;
+    letter-spacing: 0.1cm;
+    padding: 1mm;
+    font-variant: small-caps;
+    font-family:"Kode Mono", monospace;
+    font-size: x-large;
+    background-image: url("nahkhiir_h.png");
+    background-repeat: no-repeat;
+    background-size: 135px 140px;
+}
+header h1 {
+    margin-left: 135px;
+    color: WhiteSmoke;
+}
+img{
+    width: 250px;
+}
+footer{
+    background-color: Tan;
+    color: WhiteSmoke;
+    border-top:3px solid PaleVioletRed;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+section#osa1{
+    display: inline-block;
+    border-left: 3px double PaleVioletRed;
+    border-right: 3px double PaleVioletRed;
+    width: 40%;
+    border-radius: 80px;
+    padding: 2%;
+}
+section#osa2{
+    display: inline-block;
+    border-left: 3px double PaleVioletRed;
+    border-right: 3px double PaleVioletRed;
+    width: 40%;
+    border-radius: 60px;
+    padding: 2%;
+}
+#osa1 h2{
+    background-color: Lavender;
+    padding: 1.5%;
+    border-radius: 120px;
+    width: 60%;
+    color: LightSteelBlue;
+}
+#osa2 h2{
+    background-color: Lavender;
+    padding: 1.5%;
+    border-radius: 120px;
+    width: 35%;
+    color: LightSteelBlue;
+}
+#osa1 div{
+    padding: 1%;
+    color: SteelBlue;
+}
+#osa2 div{
+    padding: 1%;
+    color: SteelBlue;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: Beige;
+    overflow: hidden; /*peidetud*/
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    float: left;
+    border-bottom: 1px double Tan;
+    border-right: 1px double Tan;
+    border-radius: 60px;
+}
+nav ul li a{
+    display: block;
+    color: RosyBrown;
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+    font-family: "Kode Mono", monospace;
+    text-decoration: none;
+}
+nav ul li a:hover{ /*fookuses--hiir on peal*/
+    background-color: Tan;
+    border-radius: 60px;
+}
